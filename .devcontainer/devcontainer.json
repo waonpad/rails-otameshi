@@ -1,0 +1,11 @@
+{
+  "name": "rails-otameshi",
+  "dockerComposeFile": ["../compose.yml"],
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  }
+}
