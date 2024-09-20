@@ -5,7 +5,9 @@
   "workspaceFolder": "/workspace",
   "customizations": {
     "vscode": {
-      "extensions": []
+      "extensions": [
+        "Shopify.ruby-lsp"
+      ]
     }
   }
 }
