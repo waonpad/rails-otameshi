@@ -9,7 +9,7 @@ ENV APP_ROOT /workspace
 WORKDIR $APP_ROOT
 
 ADD Gemfile $APP_ROOT/
-# ADD Gemfile.lock $APP_ROOT/ ※後で使用するため、コメントアウトしておいてください。
+ADD Gemfile.lock $APP_ROOT/
 RUN bundle install
 
 COPY . $APP_ROOT
