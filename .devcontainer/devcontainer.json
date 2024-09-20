@@ -6,7 +6,11 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "Shopify.ruby-lsp"
+        "Shopify.ruby-lsp",
+        "castwide.solargraph",
+        "bung87.rails",
+        "Hridoy.rails-snippets",
+        "aki77.rails-db-schema"
       ]
     }
   }
